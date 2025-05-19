@@ -93,18 +93,11 @@ To evaluate the prediction of the model, ClassicationReport will be used to see 
 
 Precision tells us how many of the predicted positive cases were actually correct. In other words, it measures how trustworthy the positive predictions are. Recall shows how many of the actual positive cases the model managed to find, so it reflects how good the model is at not missing positives. The F1-score is a balanced measure that combines both precision and recall, giving us a single number to understand the overall accuracy of positive predictions. Accuracy, meanwhile, is the simplest metric, it just tells us the percentage of all predictions (both positive and negative) that were correct. Each of these metrics helps us see the model’s strengths and weaknesses from different angles.
 
-\begin{align*}
-\text{Precision} &= \frac{TP}{TP + FP} \\
-\text{Recall} &= \frac{TP}{TP + FN} \\
-F1\text{-score} &= 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \\
-\text{Accuracy} &= \frac{TP + TN}{TP + TN + FP + FN}
-\end{align*}
+**Precision**: \( \text{Precision} = \frac{TP}{TP + FP} \)  
+**Recall**: \( \text{Recall} = \frac{TP}{TP + FN} \)  
+**F1-score**: \( F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \)  
+**Accuracy**: \( \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN} \)  
 
-\textbf{Where:} \\
-\( TP \) = True Positives \\
-\( TN \) = True Negatives \\
-\( FP \) = False Positives \\
-\( FN \) = False Negatives 
 
 ![Result](images/result.png)
 

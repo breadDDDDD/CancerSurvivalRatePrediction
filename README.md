@@ -51,8 +51,8 @@ The variables included in this dataset are :
 - GeneticMutation : Genetic mutation of the patient
 - Comorbidities : Presence of one or more additional medical conditions or diseases that coexist with the primary diagnosis of cancer
 
-![Distribution Numerical Columns](images/distribution numerical col.png)
-![Distribution Categorical Columns](images/distribution categorical.png)
+![Distribution Numerical Columns](images/distributionNumerical.png)
+![Distribution Categorical Columns](images/distributionCategorical.png)
 ![Boxplot](images/boxplot.png)
 ![Survival Status Imbalance](images/piechart.png)
 ![Heatmap](images/heatmap.png)
